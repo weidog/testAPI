@@ -1,0 +1,115 @@
+﻿ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    position: relative;
+    border-bottom: 1px solid #999;
+    background-color: #edeff4;
+    cursor: pointer;
+}
+
+.showBox {
+    height: 50px;
+}
+
+.editBox {
+    height: 200px;
+}
+
+.pic {
+    width: 50px;
+    height: 50px;
+}
+
+.nameTxt {
+    color: #3b5998;
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+}
+
+.conversationTxt {
+    position: absolute;
+    bottom: 5px;
+}
+
+#detailArea {
+    font-size: 9pt;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #999;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid #999;
+}
+
+.close {
+    background: url('001.png') no-repeat scroll 0px 0px transparent;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    display: inline-block;
+    right: 5px;
+    top: 5px;
+}
+
+    .close:hover {
+        background: url('001.png') no-repeat scroll 0px -15px transparent;
+    }
+
+.edit {
+    background: url('002.png') no-repeat scroll -260px -93px transparent;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    display: inline-block;
+    right: 5px;
+    top: 25px;
+}
+
+    .edit:hover {
+        background: url('002.png') no-repeat scroll -241px -93px transparent;
+    }
+
+.btn {
+    background-image: url('003.png');
+    background-repeat: no-repeat;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    -webkit-background-size: auto;
+    background-size: auto;
+    background-position: -352px -450px;
+    background-color: #5b74a8;
+    border: 1px solid #999;
+    border-color: #29447e #29447e #1a356e;
+    color: #fff;
+    position: absolute;
+    display: inline-block;
+    right: 5px;
+    bottom: 5px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+    .btn:active {
+        background: #4f6aa3;
+        border-bottom-color: #29447e;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .2);
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .2);
+    }
+
+.editArea {
+    width: 90%;
+    min-height: 120px;
+}
+
+.add {
+    position: static;
+}
